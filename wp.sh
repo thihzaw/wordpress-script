@@ -5,13 +5,13 @@ apt-get upgrade
 apt-get instll wget
 
 #Engine X Web Server Install
-apt-get install nginx
+apt-get install nginx -y
 
 #nginx service run
 systemctl start nginx.service
 
 #database install
-apt-get install mariadb-server mariadb-client
+apt-get install mariadb-server mariadb-client -y
 
 #database service run
 systemctl start mariadb.service
